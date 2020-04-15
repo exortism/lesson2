@@ -4,7 +4,7 @@
 year_list = [[1, 2, 12], [3, 4, 5], [6, 7, 8], [9, 10, 11]]
 while True:
     try:
-        user_input = int(input('Введите цифрой порядковый номер месяца (метод список)'))
+        user_input = int(input('Введите числом порядковый номер месяца (метод список)'))
         break
     except ValueError:
         print('Запрашиваемые данные необходимо ввести числом')
@@ -23,7 +23,7 @@ else:
 year_dict = dict({'Winter': [1, 2, 12], 'Summer': [6, 7, 8], 'Autumn': [9, 10, 11], 'Spring': [3, 4, 5]})
 while True:
     try:
-        user_input = int(input('Введите цифрой порядковый номер месяца (метод словарь)'))
+        user_input = int(input('Введите числом порядковый номер месяца (метод словарь)'))
         break
     except ValueError:
         print('Запрашиваемые данные необходимо ввести числом')
