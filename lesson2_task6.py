@@ -40,12 +40,6 @@ product_list = [
 
 print(product_list)
 
-
-product_names = dict({"Название": [user_input_1[0], user_input_2[0], user_input_3[0]]})
-product_costs = dict({"Стоимость": [user_input_1[1], user_input_2[1], user_input_3[1]]})
-product_quantity = dict({"Количество": [user_input_1[2], user_input_2[2], user_input_3[2]]})
-product_unit = dict({"Единица": [user_input_1[3], user_input_2[3], user_input_3[3]]})
-
 result_dict = {
     "Название": [user_input_1[0], user_input_2[0], user_input_3[0]],
     "Стоимость": [user_input_1[1], user_input_2[1], user_input_3[1]],
