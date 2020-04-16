@@ -12,6 +12,7 @@ print(type(type_list[3]))
 print(type(type_list[4]))
 print(type(type_list[6]))
 
+
 ###########################################################################
 
 
