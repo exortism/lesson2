@@ -29,13 +29,17 @@ while True:
     except IndexError:
         print("Вы ошиблись")
 
-product_list1 = [(1, ), (user_input_1[0], user_input_1[1], user_input_1[2], user_input_1[3], )]
-product_list2 = [(2, ), (user_input_2[0], user_input_2[1], user_input_2[2], user_input_2[3], )]
-product_list3 = [(3, ), (user_input_3[0], user_input_3[1], user_input_3[2], user_input_3[3], )]
+product_list = [
+    (1, {"Название": user_input_1[0], "Стоимость": user_input_1[1], "Количество": user_input_1[2],
+         "Единица": user_input_1[3]}, ),
+    (2, {"Название": user_input_2[0], "Стоимость": user_input_2[1], "Количество": user_input_2[2],
+         "Единица": user_input_2[3]}, ),
+    (3, {"Название": user_input_3[0], "Стоимость": user_input_3[1], "Количество": user_input_3[2],
+         "Единица": user_input_3[3]}, )
+                ]
 
-print(product_list1)
-print(product_list2)
-print(product_list3)
+print(product_list)
+
 
 product_names = dict({"Название": [user_input_1[0], user_input_2[0], user_input_3[0]]})
 product_costs = dict({"Стоимость": [user_input_1[1], user_input_2[1], user_input_3[1]]})
